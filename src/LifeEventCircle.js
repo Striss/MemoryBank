@@ -47,7 +47,7 @@ const LifeEventCircle = ({ name, birthDate, id }) => {
         strokeWidth="12"
         strokeDasharray={circumference}
         strokeDashoffset={circumference - progressLength}
-        strokeLinecap="round"
+        strokeLinecap="square"
         transform="rotate(-90 75 75)" // Rotate to start from top
       />
       {/* Rough circle container */}
